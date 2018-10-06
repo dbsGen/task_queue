@@ -48,7 +48,7 @@ TaskQueue.prototype.cache = function (key, time, action, complete) {
     }
 };
 
-module.exports = new TaskQueue();
+module.exports = TaskQueue;
 
 module.exports.MINUTE = MINUTE;
 module.exports.HOURS = HOURS;
